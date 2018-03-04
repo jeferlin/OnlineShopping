@@ -10,6 +10,7 @@ import com.niit.ecommerce_backend.dao.Categorydao;
 import com.niit.ecommerce_backend.dto.Category;
 
 @Controller
+
 public class PageController {
 	@Autowired
 	private Categorydao categorydao;
