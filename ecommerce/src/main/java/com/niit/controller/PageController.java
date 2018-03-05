@@ -9,8 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 import com.niit.ecommerce_backend.dao.Categorydao;
 import com.niit.ecommerce_backend.dto.Category;
 
-@Controller
 
+@Controller
 public class PageController {
 	@Autowired
 	private Categorydao categorydao;

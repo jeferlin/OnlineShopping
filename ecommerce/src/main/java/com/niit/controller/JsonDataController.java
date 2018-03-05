@@ -12,6 +12,7 @@ import com.niit.ecommerce_backend.dto.Product;
 @Controller
 @RequestMapping("/json/data")
 public class JsonDataController {
+	
 	@Autowired
 	private ProductDAO productDAO;
 	
